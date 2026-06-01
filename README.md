@@ -1,6 +1,6 @@
-# 📱 Proyecto Arkana Mobile
+# 📱 Proyecto Arkana Admin
 
-Aplicación móvil desarrollada en **React Native** para la administración de un juego de cartas NFC. El proyecto implementa interfaces modernas, accesibles y responsivas orientadas a la gestión de usuarios, tarjetas NFC y estadísticas del sistema.
+Aplicación móvil desarrollada en **React Native** para la administración del juego de cartas NFC. El proyecto implementa interfaces modernas, accesibles y responsivas orientadas a la gestión de usuarios, tarjetas NFC y estadísticas del sistema.
 
 ---
 
@@ -153,12 +153,3 @@ Este proyecto fue desarrollado como parte de una actividad orientada al diseño 
 * Accesibilidad Digital
 * Desarrollo Multiplataforma con React Native
 
----
-
-## 👨‍💻 Autor
-
-**Marcos Jesús Ugalde Zarza**
-
-Universidad Tecnológica de la Mixteca
-
-Proyecto: **Arkana Mobile - Sistema Administrativo para Juego de Cartas NFC**
