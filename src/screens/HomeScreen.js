@@ -52,6 +52,7 @@ export default function HomeScreen({ navigation }) {
 
             <TouchableOpacity
               style={[styles.menuButton, styles.usuarios]}
+              onPress={() => navigation.navigate("Users")}
             >
               <Text style={styles.buttonText}>
                  Usuarios
@@ -68,20 +69,22 @@ export default function HomeScreen({ navigation }) {
             </TouchableOpacity>
 
             <TouchableOpacity
-              style={[styles.menuButton, styles.nfc]}
-            >
-              <Text style={styles.buttonText}>
-                 NFC
-              </Text>
-            </TouchableOpacity>
+  style={[styles.menuButton, styles.nfc]}
+  onPress={() => navigation.navigate("NfcScans")}
+>
+  <Text style={styles.buttonText}>
+    Escaneos NFC
+  </Text>
+</TouchableOpacity>
 
             <TouchableOpacity
-              style={[styles.menuButton, styles.partidas]}
-            >
-              <Text style={styles.buttonText}>
-                Partidas
-              </Text>
-            </TouchableOpacity>
+  style={[styles.menuButton, styles.partidas]}
+  onPress={() => navigation.navigate("Matches")}
+>
+  <Text style={styles.buttonText}>
+    Partidas
+  </Text>
+</TouchableOpacity>
 
             <TouchableOpacity
               style={[styles.menuButton, styles.perfiles]}
